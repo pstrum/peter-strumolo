@@ -17,4 +17,4 @@ var server = require('http').createServer(app);
 
 // Begin accepting connections on the specified port and hostname
 server.listen(port);
-console.log("Things can be made on port " + port);
+console.log("It's really happening... on port " + port);

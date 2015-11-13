@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var config = require('../config').server; // Require the server task object from the config file
-var server = requre('gulp-express');
+var server = require('gulp-express');
 
 // Gulp's task method to define a task and the function that performs the task's operations
 gulp.task('serve', function() {
