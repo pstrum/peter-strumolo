@@ -7,5 +7,5 @@ gulp.task('serve', function() {
   // Use the run method of the gulp-express module, passing in an array with the serverFile property
   server.run([config.serverFile]);
   // Use the gulp watch method to monitor files change and do something
-  gulp.watch([config.serverFile], [server.run]);
+  // gulp.watch([config.serverFile], [server.run]);
 });
