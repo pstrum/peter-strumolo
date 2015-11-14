@@ -4,5 +4,6 @@ var server = require('gulp-express');
 
 gulp.task('watch', function() {
   gulp.watch(config.index.src, ['index']);
+  gulp.watch(config.javascript.src, ['webpack']);
   gulp.watch(config.server.serverFile, [server.run]);
 });
