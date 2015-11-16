@@ -1,0 +1,8 @@
+@function color($color-name: primary, $color-variant: $color-key) {
+  $color: null;
+  $spectrum: map-get($theme-colors, $name);
+  if $spectrum {
+    $color: map-get($spectrum, $color-variant);
+  }
+  return $color;
+}

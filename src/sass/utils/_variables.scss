@@ -1,0 +1,21 @@
+$color-key: 'base' !default;
+
+$theme-colors: (
+  primary: (
+    base: #4D4D4D
+  ),
+  accent: (
+    base: #434E58,
+    light: #98A6AE
+  ),
+  secondary: (
+    base: #BB7073
+  ),
+  tertiary: (
+    base: #6D72B0
+  ),
+  base: (
+    base: #F6F6F6,
+    dark: #E3E4E5
+  )
+);
