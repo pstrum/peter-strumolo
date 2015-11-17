@@ -1,0 +1,17 @@
+@mixin btn-icons($image) {
+  content: "";
+  display: block;
+  width: $base-line-height * 3;
+  height: $base-line-height * 3;
+  margin: 0 auto;
+  background-image: url($image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65%;
+  cursor: pointer;
+}
+
+@mixin vertical-rhythm($ratio: 0) {
+  font-size: type-scale($ratio);
+  line-height: line-height($ratio);
+}

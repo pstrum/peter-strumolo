@@ -1,12 +1,19 @@
-.bottom-navigation {
+footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  ul {
-    display: flex;
-    justify-content: space-between;
-  }
-  li {
-    display: inline-block;
+  .bottom-navigation {
+    @extend %margin-wrapper;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+    }
+    li {
+      display: inline-block;
+      width: 25%;
+      padding-bottom: $base-line-height;
+      padding-top: $base-line-height / 2;
+    }
   }
 }

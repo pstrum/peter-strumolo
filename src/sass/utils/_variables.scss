@@ -35,7 +35,7 @@ $type-scale: (
 $line-height: (
   -1: $base-line-height,
   0: $base-line-height,
-  1: $base-line-height,
+  1: $base-line-height * 2,
   2: $base-line-height * 2,
   3: $base-line-height * 2,
   4: $base-line-height * 3

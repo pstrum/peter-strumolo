@@ -3,4 +3,11 @@
   .image-profile {
     border-radius: 50%;
   }
+  svg {
+    fill: #ffffff;
+    &:hover {
+      fill: color(secondary);
+      transition-duration: .2s;
+    }
+  }
 }
