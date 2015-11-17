@@ -1,0 +1,11 @@
+.about {
+  @include vertical-rhythm(1);
+  font-weight: weight(light);
+  h2 {
+    font-size: type-scale(1);
+    font-weight: weight(light);
+  }
+  p {
+    padding: $base-line-height/2 0;
+  }
+}

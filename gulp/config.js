@@ -8,8 +8,13 @@ module.exports = {
     dest: dest
   },
   images: {
-    src: src + "/images/**",
+    src: src + "/images/**/*",
     dest: dest + "/images"
+  },
+  fonts: {
+      src: src + '/sass/fonts/**/*',
+      dest: dest + "/fonts/",
+      extensions: ['woff2', 'woff', 'eot', 'ttf', 'svg']
   },
   sass: {
     src: src + "/sass/**/*.{sass,scss}",

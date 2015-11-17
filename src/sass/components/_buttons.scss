@@ -1,0 +1,28 @@
+$home: "/fonts/coffee.svg";
+$projects: "/fonts/projects.svg";
+$contact: "/fonts/contact.svg";
+$blog: "/fonts/blog.svg";
+
+.btn-home {
+  &:before {
+    @include btn-icons($home);
+  }
+}
+
+.btn-projects {
+  &:before {
+    @include btn-icons($projects);
+  }
+}
+
+.btn-contact {
+  &:before {
+    @include btn-icons($contact);
+  }
+}
+
+.btn-blog {
+  &:before {
+    @include btn-icons($blog);
+  }
+}

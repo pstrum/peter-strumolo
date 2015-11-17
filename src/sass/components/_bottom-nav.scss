@@ -1,0 +1,15 @@
+.bottom-navigation {
+  font-size: type-scale(1);
+  font-weight: weight(light);
+  a {
+    color: color(primary);
+  }
+  li:hover {
+    background-color: mix(black, color(base), 15%);
+    transition-duration: .2s;
+    cursor: pointer;
+    a:before {
+      background-size: 70%;
+    }
+  }
+}
