@@ -1,4 +1,4 @@
-$color-key: 'base' !default;
+$color-key: base !default;
 
 $theme-colors: (
   primary: (
@@ -18,4 +18,33 @@ $theme-colors: (
     base: #F6F6F6,
     dark: #E3E4E5
   )
+);
+
+$base-font-size: 1rem;
+$base-line-height: $base-font-size * 1.25;
+
+$type-scale: (
+  -1: .75rem,
+  0: 1rem,
+  1: 1.333rem,
+  2: 1.777rem,
+  3: 2.369rem,
+  4: 3.157rem
+);
+
+$line-height: (
+  -1: $base-line-height,
+  0: $base-line-height,
+  1: $base-line-height,
+  2: $base-line-height * 2,
+  3: $base-line-height * 2,
+  4: $base-line-height * 3
+);
+
+$primary: 'Source Sans Pro', sans-serif;
+
+$weight: (
+  light: 300,
+  normal: 400,
+  bold: 600
 );
