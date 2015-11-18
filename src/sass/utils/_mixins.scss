@@ -7,8 +7,11 @@
   background-image: url($image);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 65%;
+  background-size: 55%;
   cursor: pointer;
+  @media screen and (min-width: $break) {
+    background-size: 65%;
+  }
 }
 
 @mixin vertical-rhythm($ratio: 0) {

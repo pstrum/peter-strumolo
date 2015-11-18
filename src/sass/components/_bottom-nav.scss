@@ -1,6 +1,9 @@
 .bottom-navigation {
-  font-size: type-scale(1);
+  font-size: type-scale(0);
   font-weight: weight(light);
+  @media screen and (min-width: $break) {
+    font-size: type-scale(1);
+  }
   a {
     color: color(primary);
   }
