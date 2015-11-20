@@ -16,6 +16,17 @@
   }
 }
 
+@mixin tech-icons($image) {
+  content: "";
+  display: inline-block;
+  width: type-scale(1);
+  height: type-scale(2);
+  background-image: url($image);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
 @mixin vertical-rhythm($ratio: 0) {
   font-size: type-scale($ratio);
   line-height: line-height($ratio);
