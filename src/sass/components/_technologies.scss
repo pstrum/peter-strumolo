@@ -1,0 +1,69 @@
+$html: "/fonts/html5.svg";
+$css: "/fonts/css3.svg";
+$javascript: "/fonts/JavaScript.svg";
+$sass: "/fonts/sass.svg";
+$gulp: "/fonts/gulp.svg";
+$angular: "/fonts/angular.svg";
+$mongo: "/fonts/mongo.svg";
+$node: "/fonts/node.svg";
+$sketch: "/fonts/sketch.svg";
+
+.technologies {
+  font-family: $primary;
+  font-size: type-scale(1);
+  font-weight: weight(light);
+}
+
+.html {
+  &:before {
+    @include tech-icons($html);
+  }
+}
+
+.css {
+  &:before {
+    @include tech-icons($css);
+  }
+}
+
+.javascript {
+  &:before {
+    @include tech-icons($javascript);
+  }
+}
+
+.sass {
+  &:before {
+    @include tech-icons($sass);
+  }
+}
+
+.gulp {
+  &:before {
+    @include tech-icons($gulp);
+  }
+}
+
+.angular {
+  &:before {
+    @include tech-icons($angular);
+  }
+}
+
+.mongo {
+  &:before {
+    @include tech-icons($mongo);
+  }
+}
+
+.node {
+  &:before {
+    @include tech-icons($node);
+  }
+}
+
+.sketch {
+  &:before {
+    @include tech-icons($sketch);
+  }
+}
